@@ -1,6 +1,6 @@
 require('dotenv').config()
 
-const healthcheck = require('../promenade-thumbnail-indexer/healthcheck')
+const healthcheck = require('./healthcheck')
 const trackAuction = require('./services/auctiontracker')
 
 trackAuction()
