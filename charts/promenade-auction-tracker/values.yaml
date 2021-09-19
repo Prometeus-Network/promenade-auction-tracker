@@ -85,7 +85,7 @@ affinity: {}
 
 envFrom:
   - secretRef:
-      name: promenade-auction-tracker
+      name: promenade-auction-tracker-secret
   - secretRef:
       name: promenade-shared-secret
   - configMapRef:
