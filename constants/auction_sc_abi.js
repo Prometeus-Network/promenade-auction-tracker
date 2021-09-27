@@ -1,5 +1,5 @@
 const AuctionContractInfo = {
-  address: '0xa5568193Ba09dbb934A9Af33A9e8639d1eaC6F43',
+  address: '0x7dd79ECf8cC6D0ffaf50C431CCd2Ead45433942E',
   abi: [
     {
       anonymous: false,
