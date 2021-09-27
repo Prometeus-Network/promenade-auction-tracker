@@ -1,5 +1,5 @@
 const AuctionContractInfo = {
-  address: '0x7dd79ECf8cC6D0ffaf50C431CCd2Ead45433942E',
+  address: process.env.AUCTION_ADDRESS,
   abi: [
     {
       anonymous: false,
