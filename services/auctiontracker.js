@@ -9,8 +9,7 @@ const provider = new ethers.providers.JsonRpcProvider(rpcapi, chainID)
 const apiEndPoint = process.env.API_ENDPOINT
 
 const loadAuctionContract = () => {
-  let abi = Auction_SC.abi
-  let address = process.env.CONTRACTADDRESS
+  let {abi, address} = Auction_SC
 
   let contract = new ethers.Contract(address, abi, provider)
   return contract
