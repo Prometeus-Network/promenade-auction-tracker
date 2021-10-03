@@ -51,6 +51,11 @@ const callAPI = async (endpoint, data) => {
   })
 }
 
+
+const parseToFTM = (inWei) => {
+  return parseFloat(inWei.toString()) / 10 ** 18;
+};
+
 const trackAuction = () => {
   console.log('auction tracker has been started')
 
