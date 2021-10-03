@@ -46,6 +46,9 @@ const callAPI = async (endpoint, data) => {
     method: 'post',
     url: apiEndPoint + endpoint,
     data,
+    headers: {
+      'x-promenade-api-secret': process.env.PROMENADE_API_SECRET 
+    },
   })
 }
 
